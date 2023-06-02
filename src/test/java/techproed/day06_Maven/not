@@ -1,0 +1,6 @@
+eger sayfadaki tum basliklari yazdirin derlerse
+basliklar h1 basliklari altinda oldugu icin farkli bir sekilde yapilir
+//h1 |// h2 |//h5 |//h3 |//h4 bu sekilde
+yani //h1 ile tum h1'e ait olan |// h2 kodu ile de h2'ye ait olanlari alabiliriz
+
+***********************************************************

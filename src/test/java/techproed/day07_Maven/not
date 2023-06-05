@@ -1,1 +1,26 @@
-once hangi test methodu calissin istersek ona gore isim vermeliyiz.
+***********************************************************************************************************
+
+En cok kullanilan JUnit annotation'lari :
+@Test , @Before , @After , @BeforeClass , @AfterClass , @Ignore
+
+Before notasyonu her test method'undan once calisir.
+After notasyonu her test method'undan sonra calismaktadir.
+
+@Before notosayonun kullanildigi method'a genel de setup() ismi verilir
+@After notosayonun kullanildigi metoda genel de teardown() ismi verilir.
+
+@BeforeClass notasyonu bir classdaki tu mtestlerdenonce yapilmasi gereken bir islem
+varsa kullanilir.
+@AfterClass notasyonu da bir classdaki tum testler tamamlandiktan sonra yapilmasi
+gereken islemlerde kullanilir.
+ornegin actigimiz sayfayi kapatmak ve elde ettigimiz sonuclari raporlamak gibi
+
+
+once hangi test methodu calissin istersek ona gore isim vermeliyiz. Verdigmiz isme gore en bastan calisir
+test01()  ve  test02() nerede ise once test01() i calistirir.
+
+***********************************************************************************************************
+Assertion Methodlari : Test senaryolarinin isteklerine gore yapilir.
+-Assert.assertTrue (kosul)
+-Assert.assertFalse (kosul)
+-Assert.assertEquals (expected,actual)

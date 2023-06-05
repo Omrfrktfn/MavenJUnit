@@ -6,11 +6,11 @@ En cok kullanilan JUnit annotation'lari :
 Before notasyonu her test method'undan once calisir.
 After notasyonu her test method'undan sonra calismaktadir.
 
-@Before notosayonun kullanildigi method'a genel de setup() ismi verilir
-@After notosayonun kullanildigi metoda genel de teardown() ismi verilir.
+@Before notosayonun kullanildigi method'a genel de setup() ismi verilir, driver ile ilgili ayarlar yapilir
+@After notosayonun kullanildigi metoda genel de teardown() ismi verilir, driver ile ilgili ayarlar yapilir.
 
 @BeforeClass notasyonu bir classdaki tu mtestlerdenonce yapilmasi gereken bir islem
-varsa kullanilir.
+varsa kullanilir. DataBase ile ilgil ayarlamalar olabilir.
 @AfterClass notasyonu da bir classdaki tum testler tamamlandiktan sonra yapilmasi
 gereken islemlerde kullanilir.
 ornegin actigimiz sayfayi kapatmak ve elde ettigimiz sonuclari raporlamak gibi

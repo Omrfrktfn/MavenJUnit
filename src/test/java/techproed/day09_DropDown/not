@@ -1,0 +1,17 @@
+DropDown : Alt basliklarin oldugu acilir menu listesi
+-DropDown, uc adimda handle edilir
+
+1-DropDown locate edilmelidir
+
+2-Select objesi olusturulmalidir.
+==Select select = new Selcet(ddm)
+
+3-Obisyonlardan bir tanesi secilir
+==SelectByVisibleText() ile istedigim obsiyonlardan bir tanesi secilir --> Opsiyon'a gorunur metin ile ulasmak icin kullanilir
+==SelectByIndex() ile istedigim obsiyonlardan bir tanesi secilebilir --> Opsiyon'a index ile ulasmak icin kullanilir (index 0'dan baslar)
+==SelectByValue() ile istedigim obsiyonlardan bir tanesi secilebilir --> Opsiyon'a value ile ulasmak icin kullanilir.
+
+
+***********************************************************************************************************************************
+-getFirstSelectedOption() --> dropdown'daki en son sectigimiz opsiyonu bize dondurur.
+-getOptions() --> dropdown'daki tum opsiyonlari bize dondurur.

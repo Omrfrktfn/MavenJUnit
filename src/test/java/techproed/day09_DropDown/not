@@ -11,7 +11,7 @@ DropDown : Alt basliklarin oldugu acilir menu listesi
 ==SelectByIndex() ile istedigim obsiyonlardan bir tanesi secilebilir --> Opsiyon'a index ile ulasmak icin kullanilir (index 0'dan baslar)
 ==SelectByValue() ile istedigim obsiyonlardan bir tanesi secilebilir --> Opsiyon'a value ile ulasmak icin kullanilir.
 
-
+*Ddm'ye sendKeys methodu ile dropdown menude'ki seceneklerden birini kullanarak gonderebiliriz.
 ***********************************************************************************************************************************
 -getFirstSelectedOption() --> dropdown'daki en son sectigimiz opsiyonu bize dondurur.
 -getOptions() --> dropdown'daki tum opsiyonlari bize dondurur.

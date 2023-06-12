@@ -9,10 +9,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import utilities.TestBase;
 
 import java.time.Duration;
 
-public class C01_DropDown {
+public class C01_DropDown extends TestBase {
 
     // https://testcenter.techproeducation.com/index.php?page=dropdown sayfasına gidiniz
 
@@ -44,20 +45,28 @@ public class C01_DropDown {
         WebElement ddm = driver.findElement(By.xpath("//*[@id='year']"));
         Thread.sleep(1000);
         Select option = new Select(ddm);
-        option.selectByVisibleText("2020");
+       // option.selectByVisibleText("2020");
+        ddmVisibleText(ddm,"2021");
         Thread.sleep(1000);
 
         WebElement ddm1 = driver.findElement(By.xpath("//*[@id='month']"));
         Thread.sleep(1000);
         Select option1 = new Select(ddm1);
-        option1.selectByVisibleText("August");
+      //  option1.selectByVisibleText("August");
+        ddmVisibleText(ddm1,"August");
         Thread.sleep(1000);
 
         WebElement ddm2 = driver.findElement(By.xpath("//*[@id='day']"));
         Thread.sleep(1000);
         Select option2 = new Select(ddm2);
-        option2.selectByVisibleText("5");
+       // option2.selectByVisibleText("5");
+        ddmIndex(ddm2,5);
         Thread.sleep(1000);
+
+
+
+
+
 
     }
 }

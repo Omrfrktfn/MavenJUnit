@@ -1,0 +1,5 @@
+Eğer bir sayfadaki bir buttona tıkladığımızda bir uyarı penceresi çıkıyorsa ve bu çıkan pencereye sağ klip
+ yapıp locate alamıyorsak, bu bir js Alert'tür.
+    js Alert'ü handle edebilmek için driver'ımızı o pencere geçirmemiz gerekir. Bunun için;
+ driver objemizi kullanarak switchTo() methoduyla alert() methodunu kullanarak js alert'e geçiş yapmış oluruz
+ accept() yada dismiss() methodlarıyla js Alert'ü onaylar yada iptal ederek kapatırız

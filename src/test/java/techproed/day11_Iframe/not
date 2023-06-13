@@ -1,0 +1,4 @@
+-Bir HTML dokumaninin icine yerlestirilmis baska bir HTML dokumanina inline frame yani IFRAME denir.
+-Bir sayfada iframe varsa iframe icindeki webelement'i handle edebilmek icin  switchTo methoduyla iframe'e
+gecis yapmamiz gerekir. Eger gecis yapmazsak nosuchelementexceptions aliriz.
+-Alertten farki alert ciktiginda hicbir webelement'i locate edemeyiz. Iframe olsada locate ederiz fakat handle edemeyiz.

@@ -1,0 +1,7 @@
+Selenium ile herhangi bir dosyanin inip inmedigini kontrol edemeyiz.
+Selenium sadece web sayfasini kontrol eder windows uygulamalarini test edemez, bu sebeple java kullaniriz.
+dosya mevcutlugunu java kontrol edebilir.
+Selenium web sayfasina gidebilir, linke tiklayabilir, dosyayi indirebilir.
+Dosya indigi anda Java dosyaya müdahale edebilir. Selenium edemez.
+
+shit ile birlikte sag tik yaptigimiz direk yolu kopyala diye geliyor o seklde direk yolu alabiliriz.

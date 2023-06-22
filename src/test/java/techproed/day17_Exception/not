@@ -1,0 +1,19 @@
+NoSuchELementException :
+-Sayfada bulunmayan bir element'e erisim saglandigin da NoSuchELementException hatasi aliriz.
+
+TimeOutException :
+-sayfada arattigimiz elementi wait ile belirttigimiz max surede bulamadig surede bu exception'u aliriz.
+TimeOutException alabilmek icin visibilityOfElementLocated methodunu kullanarak yanlis bir locate alip
+bu ornegi test ettik. WebElement'i beklerken o elementin locat'ini bulamadigi icin max belirtilen sure
+kadar bekledi TimeOutException hatasini verdi.
+
+NullPointerException :
+-NullPointerException degisken yada obje olusturup bu degiskene atama yapmadigimiz da yada esitlemedigimiz de
+NullPointerException hatasi aliriz.
+
+StaleElementReferenceException :
+-StaleElementsReferanceException bir web sayfasindaki bir webElement'in gecerliliginin kayboldugu durumlarda olusur.
+Yani bir webElement'i locate ettikten sonra safya da refresh yada back,forward gibi navigate komutlari kullaniyorsak
+yeniden o element'e ulasmak istedigimiz de StaleElementsReferanceException hatasini aliriz.Bunu handle edebilmek icin
+webElement'e yeniden ayni locate'i atamaliyiz.
+

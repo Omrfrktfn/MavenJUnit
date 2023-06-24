@@ -1,0 +1,15 @@
+EXTENTREPORT :
+-ExtentReport kullanabilmek icin oncelike mvn adresinden 4.0.9 version numarali dependency'i pom.xml dosyamiza
+ekleriz.
+-ExtentReports class'indan class seviyesinde obje olustururuz.
+-ExtentHtmlReport class'indan class seviyesinde obje olustururuz.
+-ExtentTest class'indan class seviyesinde obje olustururuz.
+
+en son kisim da
+extentReports.flush(); // bu methodu kullanmazsak raporumuz olusmaz
+
+extentTest objesi ile info methodunu kullanarak her step'de ne yaptigimiz ile alakali bilgi yazabiliriz
+    testimizin en sonunda testin bittigini ifade eden pass() methodu ile testimiz ile alakali son bilgiyi
+    ekleyebiliriz
+        Ve son olarak actions daki perform methodu gibi extentReport ile flush() methodu kullanarak raporu
+        sonlandiririz

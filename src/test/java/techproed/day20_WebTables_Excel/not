@@ -1,0 +1,12 @@
+Bir web sayfasindaki tablolarda islem yapabilmek icin kullanilir.
+
+WEBTABLE;
+<table> tagı ile başlar
+    <thead> başlıklar için bu tag ile devam eder
+    <tr> basliklarin satiri
+        <th> table head
+            <td> başlıktaki veriler
+        <tbody> başlıklar altındaki verileri temsil eder
+                <tr> table row(satır)
+                    <td> table data (tablodaki veri)
+

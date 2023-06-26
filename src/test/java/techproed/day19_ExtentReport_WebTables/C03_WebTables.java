@@ -37,6 +37,9 @@ WEBTABLE;
         System.out.println(ucuncuSatir.getText());
 
         //    Task 3 : Son satırın verilerini yazdırın
+        WebElement sonSatir = driver.findElement(By.xpath("(//table)[1]//tr[4]"));
+        System.out.println("son satir : "+sonSatir.getText());
+
         //    Task 4 : 5. Sütun verilerini yazdırın
         //    Task 5 : Iki parametreli bir Java metodu oluşturalım: printData
         //    Parameter 1 = satır numarası

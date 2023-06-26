@@ -48,7 +48,7 @@ public abstract class TestBase {
     public void tearDown() throws Exception {
         extentReports = new ExtentReports();
         extentReports.flush();
-        driver.quit();
+       // driver.quit();
     }
 
     public void wait(int seconds) {

@@ -1,0 +1,8 @@
+Bir websayfasina girilecek olan bilgileri excell'de depolayabiliriz.
+
+resources dosyasi altinda bir excell dosyasi ekledik ve sorular cozduk.
+
+kodlari run ederkne excell dosyasi kapali olmali diger turlu hata verebilir.
+
+excell tablosundaki son satir sayisini getLastRowNum() methodu ile alabiliriz.
+index olarak verir.

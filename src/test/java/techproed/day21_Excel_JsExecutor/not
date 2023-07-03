@@ -1,0 +1,15 @@
+Bir websayfasina girilecek olan bilgileri excell'de depolayabiliriz.
+
+resources dosyasi altinda bir excell dosyasi ekledik ve sorular cozduk.
+
+kodlari run ederkne excell dosyasi kapali olmali diger turlu hata verebilir.
+
+excell tablosundaki son satir sayisini getLastRowNum() methodu ile alabiliriz.
+index olarak verir.
+
+   /*
+            Excel'e veri ekleme isleminden sonra FileOutputStream ile ekledigimiz verileri workbook objesi ile
+        create() thodu kullanarak kaydederiz.
+            Bu sekilde excel'e veriler kaydedilmis olur. Sonra yapacagimiz farkli islemlerde hata almamamiz icin
+        fos(FileOutputStream).close() ve workbook.close() methodlariyla yaptigimiz islemleri sonlandirmis oluruz
+         */

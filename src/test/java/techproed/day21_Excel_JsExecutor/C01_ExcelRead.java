@@ -1,4 +1,4 @@
-package techproed.day21_Excel;
+package techproed.day21_Excel_JsExecutor;
 
 import org.apache.poi.ss.usermodel.*;
 import org.junit.Assert;
@@ -6,7 +6,6 @@ import org.junit.Test;
 import utilities.TestBase;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;

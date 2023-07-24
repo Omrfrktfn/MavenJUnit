@@ -103,4 +103,22 @@ public class C02_SelectClass extends TestBase {
         //  Menüde hiçbir elemanın seçili olmadığını doğrulayın.
         Assert.assertEquals(0, select.getAllSelectedOptions().size());
     }
+
+    @Test
+    public void test04() {
+        //  letcode.in/dropdowns adresine gidin.
+        driver.get("https://letcode.in/dropdowns");
+        wait(1);
+
+        WebElement meyveler = driver.findElement(By.id("fruits"));
+        wait(1);
+
+        meyveler.click();
+        wait(2);
+
+        WebElement optionToSelect = driver.findElement(By.xpath("//*[@value='0']"));
+        optionToSelect.click();
+
+
+    }
 }
